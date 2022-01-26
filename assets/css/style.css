@@ -1,0 +1,294 @@
+*{
+	padding:0;
+	margin:0;
+	box-sizing:border-box;
+}
+.navbar{
+	background-color:#f5f7fa;
+	padding:15px 0px;
+}
+
+.container{
+	width:1170px;
+	margin:0 auto;
+}
+a:link,
+a:hover,
+a:focus,
+a:active{
+	text-decoration:none;
+}
+.row,
+.row::after,
+.row::before{
+	clear:both;
+	width:100%;
+	display:table;
+}
+
+.row > :first-child{
+	padding-left:0;
+}
+.row > :last-child{
+	padding-right:0;
+}
+.text-right{
+	text-align:right;
+}
+.text-center{
+	text-align:center;
+}
+.col-8{
+	width:calc((100% * 8 ) / 12)
+}
+.col-6,.col-8, .col-2, .col-10,.col-4,.col-3,.col-9{
+	
+	float:left;
+	padding:0 15px;
+}
+.col-9{
+	width:75%;
+}
+.col-3{
+	width:25%;
+}
+.col-6{
+	width:50%;
+}
+.col-4{
+	width:calc((100% * 4) / 12);
+}
+.col-2{
+	width:calc((100% * 2) / 12);
+}
+.col-10{
+	width:calc((100% * 10) / 12);
+}
+.mb-85{
+	margin-bottom:85px;
+}
+.mb-25{
+	margin-bottom:25px;
+}
+.ml-2col{
+	margin-left:calc(100% / 11);
+}
+.link, .info, .search li{
+list-style:none;
+}
+.link li{
+	display:inline-block;
+	margin:0 7px;
+	
+}
+.link li a{
+	display:inline-block;
+	padding:6px;
+	color:#506a85;
+	font-size:12px;
+}
+.link li i,{
+	margin-right:15px;
+}
+/*.... 1 section end .....*/
+.main-nav{
+	padding:35px 0 35px;
+}
+.info li{
+	display:inline-block;
+	margin:0 5px;
+	font-size:15px;
+	
+	
+}
+.info li a, .search li i{
+	padding:15px;
+	display:inline-block;
+	color:#506a85;
+	
+}
+.heroImage{
+	background-image: url("../images/background-img.jpg");
+	width:100%;
+	height:100vh;
+	position:relative;
+	
+}
+.caption{
+	position:absolute;
+	top:50%;
+	left:50%;
+	transform:translate(-50%, -50%);
+}
+.caption h2{
+	font-size:78px;
+	color:#ffffff;
+	
+}
+.caption p{
+	font-size:24px;
+	color:#a3b1bf;
+	margin:35px 0 65px;
+}.btn,.btn-to{
+	color:#ffffff;
+	background-color:#00bc9c;
+}
+.btn{
+	font-size:18px;
+	padding:25px 70px;
+}
+.text{
+	padding:125px 0px 125px;
+}
+.col-10 h2{
+	font-size:44px;
+	color:#506a85;
+	margin-bottom:40px;
+	
+}
+.col-10 p{
+	font-size:22px;
+	color:#73879c;
+	margin-bottom:80px;
+}
+.info a i{
+	color:#00bc9c;
+	font-size:60px; 
+}
+.col-9{
+	font-size:16px;
+	color:#73879c;
+}
+.col-9 h2{
+	margin-bottom:25px
+}
+.Check-out{
+	padding:130px 0px 140px;
+	background-color:#f2f5f7;
+}
+.col-Check h2{
+	font-size:44px;
+	color:#506a85;
+	margin-bottom:40px;
+}
+.col-Check p{
+	font-size:22px;
+	color:#73879c;
+	margin-bottom:85px;
+}
+.text-background{
+	padding:30px 0 30px;
+	background-color:#ffffff;	
+}
+.heading{
+	font-size:20px;
+	color:#506a85;
+	padding-bottom:15px;
+}
+.SubHeading{
+	font-size:14px;
+	color:#73879c;
+}
+.slide-img{
+	padding:80px 0px 40px;
+}
+.slide span{
+	width:10px;
+	height:10px;
+	background-color:#506a85;
+	display:inline-block;
+	border-radius:5px;
+}
+.slide span.active,
+.slide span:hover,
+.slide span:focus,
+.slide span:active{
+	background-color:#00bc9c;
+}
+.Want-to-work{
+	padding:130px 0px 130px;
+}
+.work h2{
+	font-size:44px;
+	color:#506a85;
+}
+.work p{
+	font-size:22px;
+	color:#73879c;
+	padding:40px 0px 40px;
+	
+}
+.btn-to{
+	font-size:15px;
+	padding:15px 20px;
+	border:none;
+}
+.updates{
+	padding:75px 0px 75px;
+	background-color:#2f4052;
+}
+.one img{
+	padding-bottom:20px 0px 20px;
+}
+.space h2{
+	padding-bottom:25px;
+	font-size:16px;
+	color:#ffffff;
+}
+.space a{
+	color:#a3b1bf;
+	font-size:15px;
+	margin-bottom:20px;
+}
+.space h6 i{
+	margin-left:15px;
+}
+.space p{
+	color:#a3b1bf;
+	font-size:14px;
+	margin-bottom:25px;
+}
+.sub{
+	position:relative;
+}
+.sub input{
+	width:100%;
+	background-color:#4e5c6c;
+	padding:15px 100px 15px 12px;
+	border-radius:5px;
+	border:none;
+	color:#a3b1bf;
+	font-size:14px;
+	font-family: 'source sans pro', sans-serif;
+}
+.button{
+	padding:10px 15px;
+	font-size:13px;
+	color:#ffffff;
+	background-color:#00bc9c;
+	text-transform:uppercase;
+	border-radius:5px;
+	border:none;
+	position:absolute;
+	left: 61%;
+    top: -1px;
+	margin-top:5px;
+	cursor:pointer;
+	font-family: 'source sans pro', sans-serif;
+	
+}
+.information li{
+	list-style:none;
+}
+.information a i{
+	margin-right:10px;
+	font-size:15px;	
+}
+.footer{
+	padding:35px 0px;
+	background-color:#283645;
+}
+.link p{
+	color:#707e8c;
+	font-size:14px;
+}
